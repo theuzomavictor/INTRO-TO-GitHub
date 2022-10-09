@@ -14,7 +14,7 @@
 9. Conclusion.
 
 ## Introduction
-GitHub is a web-based hosting service used to host Git repositories. In computing, a repository or "repo" as defined by the oxford dictionary is a central location where data is stored. It is a very important tool for developers, software engineers as well as technical writers. It is extremely important to learn how Git and GitHub work. Usually, Git stores file locally on your computers but GitHub allows you to have an online location where your files and version history are stored. 
+GitHub is a web-based hosting service used to host Git repositories. In computing, a repository or "repo," as defined by the Oxford dictionary, is a central location where data is stored. GitHub is a very important tool for developers, software engineers, and technical writers. It is extremely important to learn how Git and GitHub work. Usually, Git stores files locally on your computer, but GitHub allows you to have an online location where your files and version history are stored.
 
 ## What is GitHub?
 
@@ -22,15 +22,17 @@ GitHub is an online software development platform used for storing, tracking, an
 
 ## Why Git?
 
-Git is a distributed version control system. It is distributed in the sense that every contributor working on a team project has a copy (repo) locally on his or her computer. It's software that records versions or changes to your files. It allows you to recall specific versions of your files at any given time. Okay, here's an example. Let's say I run a website development agency, and then a young man reached out to my agency to help him design a website. After agreement from both parties, we started the project. We finished and sent him a link to his website. He looked at it and reached out to us to change a few things. After three rounds of reviews and changes, he decided to go with the first design, which means we have to start the whole coding process again. That would have been a very frustrating experience without Git. We'll just have to recall the first/original version of the project and deliver it to him. Now, that's why Git is important. So basically, Git allows you to work on new features without having to mess up the initial code.
+Git is a distributed version control system. It is distributed in the sense that every contributor working on a team project has a copy (repo) locally on his or her computer. It's software that records versions or changes to your files. It allows you to recall specific versions of your files at any given time. Okay, here's an illustration: 
+Let's say I own a company that develops websites and a young man contacted me to ask for assistance in designing a website. We began the project only after both parties had agreed. Once we were done, we forwarded him a link to his website. He took a look at it and made a change request to us. He chose to stick with the original design after three rounds of reviews and revisions, which means we will have to restart the entire coding procedure. Without Git, that would have been a very frustrating experience. We'll just have to go back and give him the first/original version of the project. Now you know why Git is significant.
+So basically, Git allows you to work on new features without having to mess up the initial code.
 
 ## Git vs GitHub
 
-Now, you understand what Git and GitHub are all about. Let's take a look at some key differences between them.
+You now know what Git and GitHub are used for. Let's examine some of their main distinctions.
 
 * **Introduction:**
 GIT was first introduced in April 2005.
-GitHub was first introduced in October 2007. The site was later developed in April 2008.
+GitHub was first introduced in October 2007 and later developed in April 2008.
 * **Ownership:** 
 Git is maintained by Linux. 
 GitHub is maintained by Microsoft.
@@ -42,7 +44,7 @@ Git is installed locally on the system for use and does not require the internet
 For more information, see [Git vs GitHub.](https://www.interviewbit.com/blog/git-vs-github/?amp=1)
 
 ## Clone
-Cloning in GitHub  means to download and duplicate the codes/files present in the repository. Before we begin, you should know some of Git basic commands.
+On GitHub, cloning entails downloading and copying the codes and files that are present in the repository. Before we begin, you should know some of the basic commands of Git.
 Now, to clone a repo in GitHub, use the following order:
 1. Head over to your GitHub profile.
 2. Click the new icon.
@@ -59,12 +61,12 @@ Now, to clone a repo in GitHub, use the following order:
 You have successfully cloned the repository.
 
 ## Commits
-Commits are safe points. Adding commits keeps track of your progress and changes as you work.
+Commits are safe points. Adding commits records your progress and changes as you work.
 To do a commit, use the following order:
 1. Stage the files you want to commit. Staging files gives Git permission to track your files. To stage a single file, use the command ``` git add [file name] ```. To stage multiple files, use the command ```git add . ``` or ``` git add --all ```.
 2. Commit the file/files. To commit, use the command ``` git commit -m "This is for messages" ```. The ``` -m "Adds a descriptive message" ```. 
 
-You have successfully committed your file/files.
+Your file or files have been successfully committed.
 
 ## Pull request
 Pull request is a way to contribute/collaborate to a project.  
@@ -93,14 +95,13 @@ Your output is similar to this:
 ![](20221007_235027.png)
 
 
-And you have successfully created a pull request.
-
+And your pull request was successfully created.
 
 ## GitHub Desktop vs. GitHub CLI
 
-**GitHub Desktop** is a great tool for beginners who it difficult to navigate the command line interface. It offers beautiful and specific buttons for every Git command so that the need for the command is never felt. 
+For new users who find it challenging to use the command line interface, **GitHub Desktop** is a fantastic tool. It provides lovely and precise buttons for each Git command, so that the need for the command line is never felt.
 
-**GitHub CLI** is a terminal interface. The GitHub CLI allows you interact with your code, carry out tasks relating to pull requests, issues, and other GitHub tasks right in your terminal.
+The **GitHub CLI** is a terminal interface. Using the GitHub CLI, you can interact with your code and perform actions related to pull requests, issues, and other GitHub tasks directly in your terminal.
 
 ## Conclusion
-Learning to use Git and GitHub can be overwhelming but it is a very rewarding skill. The purpose of this article is to help you understand the concept of Git and GitHub. Now, it is time to explore these things yourself. All the best!
+Learning to use Git and GitHub can be overwhelming, but it is a very rewarding skill. This article's goal is to make GitHub and the Git concept more clear to you. Now, it is time to explore these things yourself. All the best!
