@@ -101,7 +101,7 @@ And your pull request was successfully created.
 
 For new users who find it challenging to use the command line interface, **GitHub Desktop** is a fantastic tool. It provides lovely and precise buttons for each Git command, so that the need for the command line is never felt.
 
-The **GitHub CLI** is a terminal interface. Using the GitHub CLI, you can interact with your code and perform actions related to pull requests, issues, and other GitHub tasks directly in your terminal.
+The **GitHub CLI** is a terminal interface. Using the GitHub CLI, you can interact with your code and perform actions related to pull requests, issues, and other GitHub tasks directly in your terminal. 
 
 ## Conclusion
 Learning to use Git and GitHub can be overwhelming, but it is a very rewarding skill. This article's goal is to make GitHub and the Git concept more clear to you. Now, it is time to explore these things yourself. All the best!
