@@ -14,11 +14,12 @@
 9. Conclusion.
 
 ## Introduction
-GitHub is a web-based hosting service used to host Git repositories. In computing, a repository or "repo," as defined by the Oxford dictionary, is a central location where data is stored. GitHub is a very important tool for developers, software engineers, and technical writers. It is extremely important to learn how Git and GitHub work. Usually, Git stores files locally on your computer, but GitHub allows you to have an online location where your files and version history are stored.
+
+GitHub is a website used to store Git repositories. In computing, a repository, or "repo", as defined by the Oxford dictionary, is a central location where data is stored. GitHub is a very important tool for developers, software engineers, and technical writers. It is extremely important to learn how Git and GitHub work. Git typically keeps files locally on your computer, but GitHub enables you to have a web-based folder for your files and version history. 
 
 ## What is GitHub?
 
-GitHub is an online software development platform used for storing, tracking, and collaborating on software projects. It allows you and others to work on projects from anywhere in the world. It is used to interact with version control software like Git.
+GitHub is an online platform for storing, managing, and working together on software projects. With the help of this, you can work from anywhere in the world. It is used to communicate with version control software like Git.
 
 ## Why Git?
 
@@ -30,21 +31,20 @@ So basically, Git allows you to work on new features without having to mess up t
 
 You now know what Git and GitHub are used for. Let's examine some of their main distinctions.
 
-* **Introduction:**
-GIT was first introduced in April 2005.
-GitHub was first introduced in October 2007 and later developed in April 2008.
-* **Ownership:** 
-Git is maintained by Linux. 
-GitHub is maintained by Microsoft.
-* **Application:** 
-Git is a command line tool. 
-GitHub has a graphical user interface(GUI).
-* **Storage:** 
-Git is installed locally on the system for use and does not require the internet. GitHub can be accessed on the web. It needs an internet connection.
+| Basis         | Git                 | GitHub                |
+|--------       | -----------         |------------           |
+| Introdution | Git was first introduced in April 2005.| GitHub was first introduced in October 2007. The site was later developed in April 2008. |
+| Ownership | Git is maintained by Linux. | GitHub is maintained by Microsoft. |
+| Application | Git is a command line tool. | GitHub has a graphical user interface (GUI). |
+| Storage | Git is installed locally on your system for use and does not require the internet. | GitHub can be accessed on the web. It needs an internet connection. | 
+
 For more information, see [Git vs GitHub.](https://www.interviewbit.com/blog/git-vs-github/?amp=1)
 
+
+
 ## Clone
-On GitHub, cloning entails downloading and copying the codes and files that are present in the repository. Before we begin, you should know some of the basic commands of Git.
+
+On GitHub, the process of cloning involves downloading and copying the codes and files present from the repository. You should be familiar with some of the fundamental Git commands before we begin. To learn about the various Git commands, see [Introduction to basic command line.](https://github.com/ezeamaka2/basic-command-line) 
 Now, to clone a repo in GitHub, use the following order:
 1. Head over to your GitHub profile.
 2. Click the new icon.
@@ -61,7 +61,8 @@ Now, to clone a repo in GitHub, use the following order:
 You have successfully cloned the repository.
 
 ## Commits
-Commits are safe points. Adding commits records your progress and changes as you work.
+
+Commits are safe points. As you work, adding commits records your progress and changes as you work.
 To do a commit, use the following order:
 1. Stage the files you want to commit. Staging files gives Git permission to track your files. To stage a single file, use the command ``` git add [file name] ```. To stage multiple files, use the command ```git add . ``` or ``` git add --all ```.
 2. Commit the file/files. To commit, use the command ``` git commit -m "This is for messages" ```. The ``` -m "Adds a descriptive message" ```. 
@@ -69,7 +70,7 @@ To do a commit, use the following order:
 Your file or files have been successfully committed.
 
 ## Pull request
-Pull request is a way to contribute/collaborate to a project.  
+A pull request is a way to contribute to or collaborate on a project.  
 To do a pull request in GitHub, use the following order:
 1. Fork the repo you want to make changes to. A fork is a copy of a repo.
 ![](20221007_224409.png)
@@ -104,4 +105,4 @@ For new users who find it challenging to use the command line interface, **GitHu
 The **GitHub CLI** is a terminal interface. Using the GitHub CLI, you can interact with your code and perform actions related to pull requests, issues, and other GitHub tasks directly in your terminal. 
 
 ## Conclusion
-Learning to use Git and GitHub can be overwhelming, but it is a very rewarding skill. This article's goal is to make GitHub and the Git concept more clear to you. Now, it is time to explore these things yourself. All the best!
+Learning to use Git and GitHub can be overwhelming. It is, however, a very rewarding skill. This article's goal is to make GitHub and the Git concept more clear to you. Now, it is time to explore these things yourself. All the best!
