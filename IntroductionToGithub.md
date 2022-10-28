@@ -8,14 +8,14 @@
 3. Why Git?
 4. Git vs. GitHub.
 5. Clone (How to clone from GitHub).
-6. Pull request (How to do a pull request).
-7. Commits (How to do a commit).
+6. Commits (How to do a commit).
+7. Pull request (How to do a pull request).
 8. GitHub Desktop vs. GitHub CLI.
 9. Conclusion.
 
 ## Introduction
 
-GitHub is a website used to store Git repositories. GitHub is a very important tool for developers, software engineers, and technical writers. It is extremely important to learn how Git and GitHub work. Git typically keeps files locally on your computer, but GitHub enables you to have a web-based folder for your files and version history. 
+GitHub is a website used to store Git repositories(folders). GitHub is a very important tool for developers, software engineers, and technical writers. It is extremely important to learn how Git and GitHub work. Git typically keeps files locally on your computer, but GitHub enables you to have a web-based folder for your files and version history. 
 
 ## What is GitHub?
 
@@ -46,7 +46,12 @@ For more information, see [Git vs GitHub.](https://www.interviewbit.com/blog/git
 
 ## Clone
 
-On GitHub, the process of cloning involves downloading and copying the codes and files present from the repository.  In computing, a repository, or "repo", as defined by the Oxford dictionary, is a central location where data is stored. You should be familiar with some of the fundamental Git commands before we begin. To learn about the various Git commands, see [Introduction to basic command line.](https://github.com/ezeamaka2/basic-command-line) Please note that I'll be working with the Windows Operating System for the entire process.
+On GitHub, the process of cloning involves downloading and copying the codes and files present from the repository.  In computing, a repository, or "repo", as defined by the Oxford dictionary, is a central location where data is stored. In other words, it is a folder where data/files are stored.
+
+You should be familiar with some of the fundamental Git commands before we begin. To learn about the various Git commands, see [Introduction to basic command line.](https://github.com/ezeamaka2/basic-command-line) 
+
+Please note that I'll be working with the Windows Operating System for the entire process.
+
 Now, to clone a repo in GitHub, use the following order:
 1. Head over to your GitHub profile.
 2. Click the new icon.
@@ -60,13 +65,13 @@ Now, to clone a repo in GitHub, use the following order:
 6. Now, head over to your terminal. To locate your terminal on Windows, go to your search bar, type "bash" and click "Open."
 ![](annotely_image.png)
 Now, use the command ``` git clone [paste the URL here] ```.
-7. Finally, navigate into the repo using the command ``` cd [folder name] ```. In our case, it is ``` cd github```. 
+7. Finally, navigate into the folder using the command ``` cd [folder name] ```. In our case, it is ``` cd github```. 
 
 You have successfully cloned the repository.
 
 ## Commits
 
-Commits are safe points. As you work, adding commits records your progress and changes as you work.
+Commits are safe points. Adding commits records your progress and changes as you work.
 To do a commit, use the following order:
 1. Stage the files you want to commit. Staging files gives Git permission to track your files. To stage a single file, use the command ``` git add [file name] ```. To stage multiple files, use the command ```git add . ``` or ``` git add --all ```.
 2. Commit the file/files. To commit, use the command ``` git commit -m "This is for messages" ```. The ``` -m "Adds a descriptive message" ```. 
