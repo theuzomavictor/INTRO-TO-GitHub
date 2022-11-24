@@ -74,7 +74,12 @@ You have successfully cloned the repository.
 Commits are safe points. Adding commits records your progress and changes as you work.
 To do a commit, use the following order:
 1. Stage the files you want to commit. Staging files gives Git permission to track your files. To stage a single file, use the command ``` git add [file name] ```. To stage multiple files, use the command ```git add . ``` or ``` git add --all ```.
+   * To add a single file.
+   ![](annotely_image%20(1).png)
+   * To add multiple files.
+   ![](annotely_image%20(2).png)
 2. Commit the file/files. To commit, use the command ``` git commit -m "This is for messages" ```. The ``` -m "Adds a descriptive message" ```. 
+![](annotely_image%20(3).png)
 
 Your file or files have been successfully committed.
 
