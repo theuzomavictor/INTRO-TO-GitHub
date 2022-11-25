@@ -83,9 +83,11 @@ To do a commit, use the following order:
    ![](annotely_image%20(2).png)
 
 2. Commit the file/files. To commit, use the command ``` git commit -m "This is for messages" ```. The ``` -m "Adds a descriptive message" ```. 
+
 ![](annotely_image%20(3).png)
 
 Your output is similar to this:
+
 ![](commit%20op.png)
 
 Your file or files have been successfully committed.
